@@ -45,7 +45,7 @@ public class Controller {
 
         } catch (InputMismatchException e) {
             System.out.println("Invalid input! Please enter valid numbers.");
-            scanner.nextLine(); // Clear invalid input
+            scanner.nextLine(); 
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         } catch (Exception e) {
